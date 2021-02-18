@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=repositories/first_symf/
+    - /bin/cp -R images $DEPLOYPATH
